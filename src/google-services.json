@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49060764758",
+    "project_id": "promising-lamp-333811",
+    "storage_bucket": "promising-lamp-333811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49060764758:android:35b881ac816eede903aff7",
+        "android_client_info": {
+          "package_name": "com.recipedictionary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFZmWqQle4AZbmOQv3PC_OFSlGo4l4au8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
