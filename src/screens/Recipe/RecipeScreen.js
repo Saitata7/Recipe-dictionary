@@ -15,7 +15,7 @@ import {
   getCategoryById,
 } from "../../data/MockDataAPI";
 import BackButton from "../../components/BackButton/BackButton";
-//import ViewIngredientsButton from "../../components/ViewIngredientsButton/ViewIngredientsButton";
+import ViewIngredientsButton from "../../components/ViewIngredientsButton/ViewIngredientsButton";
 
 const { width: viewportWidth } = Dimensions.get("window");
 
@@ -113,7 +113,7 @@ export default function RecipeScreen(props) {
           <Text style={styles.infoRecipe}>{item.time} minutes </Text>
         </View>
 
-        {/* <View style={styles.infoContainer}>
+        <View style={styles.infoContainer}>
           <ViewIngredientsButton
             onPress={() => {
               let ingredients = item.ingredients;
@@ -121,7 +121,7 @@ export default function RecipeScreen(props) {
               navigation.navigate("IngredientsDetails", { ingredients, title });
             }}
           />
-        </View> */}
+        </View>
         <View style={styles.infoContainer}>
           <Text style={styles.infoDescriptionRecipe}>{item.description}</Text>
         </View>
