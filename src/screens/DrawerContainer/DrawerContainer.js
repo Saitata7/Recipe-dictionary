@@ -17,6 +17,14 @@ export default function DrawerContainer(props) {
             navigation.closeDrawer();
           }}
         />
+                <MenuButton
+          title="SEARCH"
+          source={require("../../../assets/icons/search.png")}
+          onPress={() => {
+            navigation.navigate("Search");
+            navigation.closeDrawer();
+          }}
+        />
         <MenuButton
           title="CATEGORIES"
           source={require("../../../assets/icons/category.png")}
@@ -25,14 +33,32 @@ export default function DrawerContainer(props) {
             navigation.closeDrawer();
           }}
         />
-        <MenuButton
-          title="SEARCH"
-          source={require("../../../assets/icons/search.png")}
+         <MenuButton
+          title="Add Recipe"
+          source={require("../../../assets/icons/category.png")}
           onPress={() => {
-            navigation.navigate("Search");
-            navigation.closeDrawer();
+            try {
+              navigation.navigate("Recipedb");
+              navigation.closeDrawer();
+            } catch (error) {
+              console.error('Navigation Error:', error);
+            }
           }}
         />
+
+<MenuButton
+          title="Report"
+          source={require("../../../assets/icons/category.png")}
+          onPress={() => {
+            try {
+              navigation.navigate("Recipereport");
+              navigation.closeDrawer();
+            } catch (error) {
+              console.error('Navigation Error:', error);
+            }
+          }}
+        />
+
       </View>
     </View>
   );
