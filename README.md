@@ -64,16 +64,3 @@ npm start
 
 Follow the Expo CLI instructions to run the app on an emulator or physical device.
 
-## Contributing
-
-We welcome contributions! If you'd like to contribute to Recipe-dictionary, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to the React Native and Firebase communities for their invaluable contributions.
-
-Feel free to customize the README further based on your project structure and additional features.
